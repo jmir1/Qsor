@@ -7,7 +7,6 @@ namespace Qsor.Game.Graphics.UserInterface.Overlays.Settings
 {
     public abstract class SettingsCategoryContainer : FillFlowContainer
     {
-        protected override Container<Drawable> Content => base.Content;
         public new abstract string Name { get; }
         public abstract IconUsage Icon { get; }
 
